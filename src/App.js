@@ -7,7 +7,7 @@ import Display from './components/display/Display';
 
 import './App.css';
 
-
+//author: Thao Vo
 
 function App() {
   
