@@ -10,8 +10,6 @@ import './App.css';
 //author: Thao Vo
 
 function App() {
-  
-
 
   return (
   <div>
