@@ -45,6 +45,7 @@ code {
   font-size: 1.25em;
   border: .15em solid #e63946;
   border-radius: 2em;
+  margin-left: .25em;
 
   text-align: left;
   display: flex;
@@ -56,7 +57,7 @@ code {
   font-family: 'Poppin';
   font-weight:500;
   display: flex;
-  margin-left: .5em;
+  margin-left: .85em;
   color: #1d3557;
   font-weight: bolder;
 }
@@ -73,21 +74,25 @@ code {
   text-align: center;
   font-size: 1.25em;
   font-family: 'Poppin';
-  font-weight:500;
+  font-weight: lighter;
   display: flex;
-  margin-left: .5em;
+  margin-left: .65em;
   margin-bottom: 0;
-
+  color: #1d3557;
 }
 
 .dropDown-menu{
   font-size: 1.25em;
   display: block;
   text-align: left;
-  width: 12em;
+  width: 10em;
   color: #1d3557;
+  margin-left: .5em;
 }
 
+.dropDown-menu ::selection{
+  background-color: black;
+}
 
 
 .submit-button{
@@ -136,5 +141,8 @@ code {
   font-size: 1em;
   font-weight: lighter;
 }
+
+
+
 
 
