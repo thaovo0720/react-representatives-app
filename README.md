@@ -1,3 +1,9 @@
+#Purpose of the project
+
+This is project will help you to learn who is your representatives depending on government levels such as national, state, county.
+By typing in your address, data will be fetched and display your representatives. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
