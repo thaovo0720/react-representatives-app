@@ -8,6 +8,7 @@ body {
   background-color: #fffffc;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -25,7 +26,7 @@ code {
   font-family: 'Poppin';
   font-weight:bolder;
   padding: 1em;
-  
+  margin-top: 0;
 }
 
 .header h1{
@@ -67,17 +68,16 @@ code {
   margin-top: 1em;
   margin-left: 1em;
  
-
 }
 
 .drop-title{
   text-align: center;
-  font-size: 1.25em;
+  font-size: 1.1em;
   font-family: 'Poppin';
-  font-weight: lighter;
+  font-weight: bold;
   display: flex;
-  margin-left: .65em;
-  margin-bottom: 0;
+  margin-left: .85em;
+  margin-bottom: .25em;
   color: #1d3557;
 }
 
@@ -85,9 +85,9 @@ code {
   font-size: 1.25em;
   display: block;
   text-align: left;
-  width: 10em;
-  color: #1d3557;
+  width: 13em;
   margin-left: .5em;
+
 }
 
 .dropDown-menu ::selection{
@@ -97,22 +97,21 @@ code {
 
 .submit-button{
   text-align: center;
-  font-size: 1.25em;
+  font-size: 1.5em;
   font-family: 'Poppin';
   font-weight:500;
   display: flex;
   margin-left: 3.5em;
   margin-bottom: 0;
   margin-top: 1em;
-  background-color: #fffffc;
-  font-size: 1.5em;
+  background-color: #e63946;
+  color: #fffffc;
   border-radius: 1em;
   border: .15em solid #e63946;
+  padding-left: .5em;
+  padding-right:.5em;
 }
 
-.submit-button:hover{
-  background-color: #fffffc;
-}
 
 .card-container{
   border: .25em solid #1d3557;
@@ -123,6 +122,10 @@ code {
   margin-right: 2em;
   /* border: 3px solid gray; */
   text-align: center;
+}
+
+.person-container{
+  border: .25em solid #1d3557;
 }
 
 .person-photo{
@@ -142,7 +145,28 @@ code {
   font-weight: lighter;
 }
 
+@media screen and (min-width: 500px){
+  .header{
+    font-size: 1.5em;
+    font-family: 'Poppin';
+    font-weight:bolder;
+    padding: 1em;
+    text-align: center;
+  }
 
+  .input-container{
+    margin-right: 20em;
+    margin-left: 25em;
+  }
 
+  .submit-button{
+    text-align: left;
+    margin-left: .5em;
+  }
 
-
+  .card-container{
+    text-align: center;
+    margin-left: 35em;
+    margin-top: -18em;
+  }
+}
